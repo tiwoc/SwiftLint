@@ -60,7 +60,7 @@ let package = Package(
             name: "SwiftLintFramework",
             dependencies: frameworkDependencies
         ),
-        .target(
+        .testTarget(
             name: "SwiftLintTestHelpers",
             dependencies: [
                 "SwiftLintFramework"
